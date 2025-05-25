@@ -10,7 +10,9 @@ includes configs for:
 - nvim
 - picom
 - rofi
-- starship.toml
+- starship
+- yazi
+- bat
 
 assets:
 - wallpaper
