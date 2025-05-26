@@ -14,6 +14,9 @@ if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 
+# local binaries
+export PATH="$PATH:~/.local/bin"
+
 # starship
 eval "$(starship init bash)"
 
@@ -38,3 +41,4 @@ PATH=$PATH:$HOME/.cargo/bin
 if [ -f "$HOME/.bash_env" ]; then
     . "$HOME/.bash_env"
 fi
+
